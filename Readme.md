@@ -107,6 +107,7 @@ Deployment
 The project has been deployed using Docker. To deploy it on Heroku, follow these steps (still in progress):
 Create a Dockerfile and docker-compose.yml.
 Push the application to Heroku (future deployment task).
+
 Contribution Guidelines
 
 Fork the repository and create a new branch.
