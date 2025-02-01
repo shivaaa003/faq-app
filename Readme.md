@@ -1,5 +1,5 @@
 <img width="1440" alt="Screenshot 2025-02-02 at 3 00 46 AM" src="https://github.com/user-attachments/assets/7413f7c6-f072-4a8b-95e8-b41017b22cbc" />
-<img width="1440" alt="Screenshot 2025-02-02 at 2 59 58 AM" src="https://github.com/user-attachments/assets/a126820f-a723-4725-8915-1883feea26eb" />
+<img width="1440" alt="Screenshot 2025-02-02 at 3 00 08 AM" src="https://github.com/user-attachments/assets/aa00ba77-1528-4c60-b8c0-af4c04cea3c8" />
 <img width="1440" alt="Screenshot 2025-02-02 at 1 27 26 AM" src="https://github.com/user-attachments/assets/48392bd6-b708-402c-b27d-a2af0964580e" />
 FAQ Management System
 
