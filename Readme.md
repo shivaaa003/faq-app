@@ -3,7 +3,8 @@ FAQ Management System
 Docker Pull Command
 
 To pull the Docker image, use the following command:
-docker pull shivam00300/faq_project-web
+
+<pre> docker pull shivam00300/faq_project-web </pre>
 Overview
 
 This project is a Django-based web application for managing Frequently Asked Questions (FAQs) with multilingual support. It includes a WYSIWYG editor for answers, dynamic translations, and caching to improve performance.
