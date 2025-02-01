@@ -8,7 +8,7 @@ class FAQSerializer(serializers.ModelSerializer):
     This serializer is responsible for:
     - Converting FAQ model instances into JSON format.
     - Handling multilingual support by dynamically selecting the language for question and answer.
-    - Using `SerializerMethodField` to fetch translations based on the requested language.
+    - Using SerializerMethodField to fetch translations based on the requested language.
 
     Assumptions:
     1. The FAQ model contains multilingual fields (question_hi, question_bn).
