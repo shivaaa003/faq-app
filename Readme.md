@@ -49,7 +49,7 @@ Redis (for caching)
 1. Clone the Repository
 Clone the repository to your local machine:
 <pre>https://github.com/shivaaa003/faq-app.git</pre>
-cd faq-management
+
 2. Install Dependencies
 Create a virtual environment and install the necessary dependencies:
 <pre>python -m venv venv
