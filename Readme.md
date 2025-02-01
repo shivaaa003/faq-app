@@ -8,15 +8,31 @@ To pull the Docker image, use the following command:
 Overview
 
 This project is a Django-based web application for managing Frequently Asked Questions (FAQs) with multilingual support. It includes a WYSIWYG editor for answers, dynamic translations, and caching to improve performance.
+
+
 Features
 
 FAQ Management: Store questions and answers with support for multilingual translations.
+
+
 WYSIWYG Editor: Use django-ckeditor to format answers with rich text.
+
+
 Multilingual Support: Translations are automated via the Google Translate API or googletrans.
+
+
 Caching: Translations are cached using Redis for faster retrieval.
+
+
 REST API: Expose FAQs through an API with language selection via query parameters.
+
+
 Admin Panel: Easily manage FAQs via the Django admin interface.
+
+
 Testing: Unit tests are written with pytest to ensure functionality.
+
+
 Installation
 
 Follow these steps to set up the project on your local machine.
