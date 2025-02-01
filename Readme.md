@@ -26,44 +26,44 @@ Django 5.x
 Redis (for caching)
 1. Clone the Repository
 Clone the repository to your local machine:
-git clone https://github.com/yourusername/faq-management.git
+<pre>git clone https://github.com/yourusername/faq-management.git</pre>
 cd faq-management
 2. Install Dependencies
 Create a virtual environment and install the necessary dependencies:
-python -m venv venv
-pip install -r requirements.txt
+<pre>python -m venv venv
+pip install -r requirements.txt</pre>
 3. Set Up Redis
 Ensure Redis is installed and running. You can install Redis locally or use Docker.
 To start Redis using Docker:
-docker run --name redis-container -p 6379:6379 -d redis
+<pre>docker run --name redis-container -p 6379:6379 -d redis</pre>
 4. Apply Migrations
 Run the following command to set up the database:
-python manage.py migrate
+<pre>python manage.py migrate</pre>
 5. Create a Superuser (for Admin Panel)
 Create a superuser to access the Django admin panel:
-python manage.py createsuperuser
+<pre>python manage.py createsuperuser</pre>
 Follow the prompts to set up your superuser.
 6. Run the Development Server
 Start the Django development server:
-python manage.py runserver
+<pre>python manage.py runserver</pre>
 The application will be accessible at http://127.0.0.1:8000/.
 API Usage
 
 The FAQ API allows users to fetch FAQs in different languages. Use the lang query parameter to specify the language.
 Example Requests:
 Fetch FAQs in English (default):
-curl http://localhost:8000/api/faqs/
+<pre>curl http://localhost:8000/api/faqs/</pre>
 Fetch FAQs in Hindi:
-curl http://localhost:8000/api/faqs/?lang=hi
+<pre>curl http://localhost:8000/api/faqs/?lang=hi</pre>
 Fetch FAQs in Bengali:
-curl http://localhost:8000/api/faqs/?lang=bn
+<pre>curl http://localhost:8000/api/faqs/?lang=bn</pre>
 Admin Panel
 
 To manage FAQs, navigate to the Django admin interface at http://127.0.0.1:8000/admin/. Use the superuser credentials you created earlier to log in and manage FAQs.
 Testing
 
 Run the tests with pytest:
-pytest
+<pre>pytest</pre>
 This will execute unit tests to ensure the correctness of your application.
 Code Quality
 
