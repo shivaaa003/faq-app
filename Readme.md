@@ -36,13 +36,19 @@ Testing: Unit tests are written with pytest to ensure functionality.
 Installation
 
 Follow these steps to set up the project on your local machine.
+
 Prerequisites
+
+
 Python 3.x
+
 Django 5.x
+
 Redis (for caching)
+
 1. Clone the Repository
 Clone the repository to your local machine:
-<pre>git clone https://github.com/yourusername/faq-management.git</pre>
+<pre>https://github.com/shivaaa003/faq-app.git</pre>
 cd faq-management
 2. Install Dependencies
 Create a virtual environment and install the necessary dependencies:
