@@ -1,6 +1,8 @@
 FAQ Management System
+Docker Pull Command: docker pull shivam00300/faq_project-web
 
 This project is a Django-based web application for managing Frequently Asked Questions (FAQs) with multilingual support. It includes a WYSIWYG editor for answers, dynamic translations, and caching to improve performance.
+
 Features
 
 FAQ Management: Store questions and answers, with support for multilingual translations.
@@ -61,6 +63,7 @@ Testing
 Run the tests with pytest:
 pytest
 This will execute unit tests to ensure the correctness of your application.
+
 Code Quality
 
 In this project, I've adhered to PEP8 guidelines and best practices to ensure clean, readable, and maintainable code. Here’s how it has been implemented:
@@ -78,16 +81,19 @@ The use of Django's built-in features (like models, serializers, and views) enha
 4. Code Quality Tools
 I have used flake8 for linting to check for PEP8 compliance and catch any issues early.
 The code is free of unnecessary complexity and is optimized for performance where needed.
+
 Deployment
 
 The project has been deployed using Docker. To deploy it on Heroku, follow these steps (still in progress):
 Create a Dockerfile and docker-compose.yml.
 Push the application to Heroku (future deployment task).
+
 Contribution Guidelines
 
 Fork the repository and create a new branch.
 Make your changes and ensure all tests pass.
 Submit a pull request with a clear explanation of your changes.
+
 Git Commit Guidelines
 
 Use the following convention for your commit messages:
